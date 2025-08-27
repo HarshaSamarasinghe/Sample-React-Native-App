@@ -1,10 +1,11 @@
-import React from 'react'
-import { Text, View } from 'react-native'
+import React from 'react';
+import { Text, View } from 'react-native';
+import { styles } from "../../styles/auth.styles";
 
 export default function MyLearn() {
   return (
-    <View>
-      <Text>MY Learn Screen</Text>
-    </View>
+     <View style={styles.container}>
+          <Text>Hello This is My Learn Screen</Text>
+      </View>
   )
 }
